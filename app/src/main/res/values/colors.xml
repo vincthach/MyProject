@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_transparent">@android:color/transparent</color>
+    <color name="color_line_horizontal_gray">#f5f7f9</color>
+    <color name="color_activity_main_background">#f5f7f9</color>
+    <color name="color_created_date_gray">#efeff2</color>
+    <color name="color_ic_dowload_gray">#d2d2d2</color>
+    <color name="color_tab_indicator_unselected">#eaedf2</color>
+    <color name="color_setting_background_unselected">#edefe0</color>
+</resources>

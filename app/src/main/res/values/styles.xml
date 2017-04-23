@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="styles_news_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/padding_news_content_top</item>
+        <item name="android:paddingBottom">@dimen/padding_news_content_bottom</item>
+        <item name="android:paddingLeft">@dimen/padding_news_content_left</item>
+        <item name="android:paddingRight">@dimen/padding_news_content_right</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="styles_news_icon">
+        <item name="android:layout_width">@dimen/width_news_item_icon</item>
+        <item name="android:layout_height">@dimen/height_news_item_icon</item>
+    </style>
+
+    <style name="styles_grid_news_icon" parent="styles_news_icon">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_news_icon_image</item>
+        <item name="android:layout_marginBottom">@dimen/margin_news_icon_image</item>
+    </style>
+
+    <style name="styles_list_news_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:lines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/textsize_news_title</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_list_news_title_left</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="styles_grid_news_title" parent="styles_list_news_title">
+        <item name="android:layout_marginRight">@dimen/margin_grid_news_title_left</item>
+        <item name="android:layout_marginLeft">@dimen/margin_grid_news_title_right</item>
+        <item name="android:layout_marginBottom">@dimen/margin_grid_news_title_bottom</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="styles_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/color_line_horizontal_gray</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_vertical_line_left</item>
+        <item name="android:layout_marginTop">@dimen/margin_vertical_line_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_vertical_line_bottom</item>
+    </style>
+
+    <style name="styles_created_date">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_news_created_date</item>
+        <item name="android:paddingLeft">@dimen/padding_created_date_left</item>
+        <item name="android:paddingRight">@dimen/padding_created_date_right</item>
+        <item name="android:paddingTop">@dimen/padding_created_date_top</item>
+        <item name="android:paddingBottom">@dimen/padding_created_date_bottom</item>
+        <item name="android:background">@drawable/created_date_background</item>
+    </style>
+
+    <style name="styles_created_date_small" parent="styles_created_date">
+        <item name="android:background">@drawable/created_date_small_background</item>
+    </style>
+
+    <style name="styles_list_users_liked">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/margin_users_liked_left</item>
+        <item name="android:layout_marginBottom">@dimen/margin_user_liked_bottom</item>
+    </style>
+
+    <style name="styles_news_tag">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/margin_news_tag_left</item>
+    </style>
+
+    <style name="styles_tv_tag">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_tag_top</item>
+        <item name="android:layout_marginRight">@dimen/margin_tag_right</item>
+        <item name="android:layout_marginLeft">@dimen/margin_tag_left</item>
+        <item name="android:layout_marginBottom">@dimen/margin_tag_bottom</item>
+        <item name="android:textSize">@dimen/textsize_news_tag</item>
+    </style>
+
+    <style name="styles_ic_download">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_ic_dowload_gray</item>
+        <item name="android:layout_marginRight">@dimen/margin_ic_download_right</item>
+        <item name="android:textSize">@dimen/textsize_ic_download</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="styles_news_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/padding_news_header_top</item>
+    </style>
+
+    <style name="styles_news_header_small" parent="styles_news_header">
+        <item name="android:background">@drawable/news_items_header_small_background</item>
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+    <style name="styles_grid_users_liked" parent="styles_list_users_liked">
+        <item name="android:layout_marginBottom">@dimen/margin_user_liked_grid_bottom</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+
+</resources>
