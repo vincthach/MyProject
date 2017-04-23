@@ -30,7 +30,6 @@ import example.com.myproject.listeners.MainFabButtonClickListener;
 import example.com.myproject.listeners.MainOnTabSelectedListener;
 import example.com.myproject.models.NewsModel;
 import example.com.myproject.utils.AnimationUtil;
-import jp.wasabeef.recyclerview.animators.SlideInDownAnimator;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -164,7 +163,6 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.LayoutManager gridLayoutManager = new GridLayoutManager(getApplicationContext(), NewsConsant.NEWS_GRID_COLUMNS);
         rvNews.setLayoutManager(gridLayoutManager);
         rvNews.setAdapter(newsGridAdapter);
-        rvNews.setItemAnimator(new SlideInDownAnimator());
     }
 
     public void loadListView(boolean isExpanded) {
