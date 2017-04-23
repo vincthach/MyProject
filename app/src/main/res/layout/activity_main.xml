@@ -7,4 +7,77 @@
     android:background="@color/color_activity_main_background"
     tools:context="example.com.myproject.MainActivity">
 
+    <LinearLayout
+        android:id="@+id/ll_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_main_header_left"
+        android:layout_marginRight="@dimen/margin_main_header_left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/app_name"
+            android:textSize="@dimen/text_size_app_title"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <example.com.myproject.components.FontAweSomeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_background"
+            android:padding="5dp"
+            android:text="@string/ic_setting"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <example.com.myproject.components.FontAweSomeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/user_background"
+            android:padding="5dp"
+            android:text="@string/ic_setting"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_main_header"
+        android:layout_marginBottom="@dimen/margin_tab_news_bottom"
+        android:layout_marginLeft="@dimen/margin_tab_news_left"
+        android:background="@color/color_activity_main_background"
+        app:tabGravity="fill"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="0dp"
+        app:tabPaddingStart="@dimen/padding_tab_news_start" />
+
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tl_news">
+
+        <include layout="@layout/content_main" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fab_home_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin">
+
+        <include layout="@layout/item_fab" />
+    </LinearLayout>
 </RelativeLayout>
