@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/item_news_background"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_news_icon"
+        style="@style/styles_grid_news_icon" />
+
+    <TextView
+        android:id="@+id/tv_news_title"
+        style="@style/styles_grid_news_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_users_liked"
+        style="@style/styles_grid_users_liked" />
+</LinearLayout>

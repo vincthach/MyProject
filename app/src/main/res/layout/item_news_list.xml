@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_news_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_news_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_news_header"
+        android:animateLayoutChanges="true"
+        style="@style/styles_news_header">
+
+        <TextView
+            android:id="@+id/tv_created_date"
+            style="@style/styles_created_date" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <example.com.myproject.components.FontAweSomeTextView
+            android:text="@string/ic_download"
+            style="@style/styles_ic_download" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_news_header_small"
+        style="@style/styles_news_header_small">
+
+        <TextView
+            android:id="@+id/tv_created_date_small"
+            style="@style/styles_created_date_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_news_content"
+        style="@style/styles_news_content">
+
+        <ImageView
+            android:id="@+id/iv_news_icon"
+            style="@style/styles_news_icon" />
+
+        <TextView
+            android:id="@+id/tv_news_title"
+            style="@style/styles_list_news_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_news_footer"
+        android:layout_width="match_parent"
+        android:animateLayoutChanges="true"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_news_tag"
+            style="@style/styles_news_tag" />
+
+        <View style="@style/styles_line_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/ll_users_liked"
+            style="@style/styles_list_users_liked" />
+    </LinearLayout>
+
+</LinearLayout>
