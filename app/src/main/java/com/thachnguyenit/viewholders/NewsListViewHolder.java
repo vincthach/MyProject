@@ -61,10 +61,10 @@ public class NewsListViewHolder extends NewsBaseViewHolder {
         addUserLikes(llUserLiked, news.getUserList());
         if (isExpanded) {
             llNewsHeaderSmall.setVisibility(View.GONE);
-            AnimationUtil.expand(llNewsHeader, NewsConsant.NEWS_GRID_ANIMATION_DURATION);
-            AnimationUtil.expand(llNewsFooter, NewsConsant.NEWS_GRID_ANIMATION_DURATION);
+            llNewsHeader.setVisibility(View.VISIBLE);
+            llNewsFooter.setVisibility(View.VISIBLE);
         } else {
-            AnimationUtil.expand(llNewsHeaderSmall, NewsConsant.NEWS_GRID_ANIMATION_DURATION);
+            llNewsHeaderSmall.setVisibility(View.VISIBLE);
             llNewsHeader.setVisibility(View.GONE);
             llNewsFooter.setVisibility(View.GONE);
         }
