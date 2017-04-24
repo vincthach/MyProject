@@ -5,12 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.thachnguyenit.R;
 import com.thachnguyenit.models.NewsModel;
 import com.thachnguyenit.viewholders.NewsGridViewHolder;
 
 import java.util.List;
-
-import com.thachnguyenit.R;
 
 public class NewsGridAdapter extends RecyclerView.Adapter<NewsGridViewHolder> {
 

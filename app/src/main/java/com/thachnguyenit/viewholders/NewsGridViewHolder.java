@@ -6,11 +6,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.thachnguyenit.R;
 import com.thachnguyenit.models.NewsModel;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import com.thachnguyenit.R;
 
 public class NewsGridViewHolder extends NewsBaseViewHolder {
 
