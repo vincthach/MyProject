@@ -1,11 +1,11 @@
-package example.com.myproject.data;
+package com.thachnguyenit.data;
+
+import com.thachnguyenit.models.NewsModel;
+import com.thachnguyenit.models.UserModel;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import example.com.myproject.models.NewsModel;
-import example.com.myproject.models.UserModel;
 
 public class NewsService {
 

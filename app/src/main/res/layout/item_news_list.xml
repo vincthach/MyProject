@@ -20,7 +20,7 @@
             android:layout_height="0dp"
             android:layout_weight="1" />
 
-        <example.com.myproject.components.FontAweSomeTextView
+        <com.thachnguyenit.components.FontAweSomeTextView
             android:text="@string/ic_download"
             style="@style/styles_ic_download" />
     </LinearLayout>

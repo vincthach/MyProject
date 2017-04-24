@@ -1,9 +1,9 @@
-package example.com.myproject.listeners;
+package com.thachnguyenit.listeners;
 
 import android.support.design.widget.TabLayout;
 import android.view.View;
 
-import example.com.myproject.R;
+import com.thachnguyenit.R;
 
 public class MainOnTabSelectedListener implements TabLayout.OnTabSelectedListener {
     @Override

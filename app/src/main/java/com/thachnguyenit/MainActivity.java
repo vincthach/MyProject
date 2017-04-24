@@ -1,5 +1,6 @@
-package example.com.myproject;
+package com.thachnguyenit;
 
+import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -14,22 +15,22 @@ import android.widget.TextView;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
 import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
+import com.thachnguyenit.adapters.NewsGridAdapter;
+import com.thachnguyenit.adapters.NewsListAdapter;
+import com.thachnguyenit.components.GridSpaceDecorator;
+import com.thachnguyenit.components.VerticalSpaceDecorator;
+import com.thachnguyenit.configs.NewsConsant;
+import com.thachnguyenit.data.NewsService;
+import com.thachnguyenit.listeners.MainFabButtonClickListener;
+import com.thachnguyenit.listeners.MainOnTabSelectedListener;
+import com.thachnguyenit.models.NewsModel;
+import com.thachnguyenit.utils.AnimationUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import example.com.myproject.adapters.NewsGridAdapter;
-import example.com.myproject.adapters.NewsListAdapter;
-import example.com.myproject.components.GridSpaceDecorator;
-import example.com.myproject.components.VerticalSpaceDecorator;
-import example.com.myproject.configs.NewsConsant;
-import example.com.myproject.data.NewsService;
-import example.com.myproject.listeners.MainFabButtonClickListener;
-import example.com.myproject.listeners.MainOnTabSelectedListener;
-import example.com.myproject.models.NewsModel;
-import example.com.myproject.utils.AnimationUtil;
 
 public class MainActivity extends AppCompatActivity {
 

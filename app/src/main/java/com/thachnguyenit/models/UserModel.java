@@ -1,4 +1,4 @@
-package example.com.myproject.models;
+package com.thachnguyenit.models;
 
 public class UserModel {
 

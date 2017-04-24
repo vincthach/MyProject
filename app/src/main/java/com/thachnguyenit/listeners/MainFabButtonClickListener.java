@@ -1,8 +1,8 @@
-package example.com.myproject.listeners;
+package com.thachnguyenit.listeners;
 
 import android.view.View;
 
-import example.com.myproject.utils.AnimationUtil;
+import com.thachnguyenit.utils.AnimationUtil;
 
 public class MainFabButtonClickListener implements View.OnClickListener {
 

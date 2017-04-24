@@ -1,5 +1,6 @@
-package example.com.myproject.utils;
+package com.thachnguyenit.utils;
 
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
@@ -12,6 +13,8 @@ public class AnimationUtil {
     }
 
     public static void expand(final View v, int duration) {
+        if (true)
+            return;
         v.measure(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         final int targetHeight = v.getMeasuredHeight();
 
@@ -25,6 +28,7 @@ public class AnimationUtil {
                         ? ViewGroup.LayoutParams.WRAP_CONTENT
                         : (int) (targetHeight * interpolatedTime);
                 v.requestLayout();
+                v.invalidate();
             }
 
             @Override

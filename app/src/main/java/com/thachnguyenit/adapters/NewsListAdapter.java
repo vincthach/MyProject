@@ -1,15 +1,16 @@
-package example.com.myproject.adapters;
+package com.thachnguyenit.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.thachnguyenit.models.NewsModel;
+import com.thachnguyenit.viewholders.NewsListViewHolder;
+
 import java.util.List;
 
-import example.com.myproject.R;
-import example.com.myproject.models.NewsModel;
-import example.com.myproject.viewholders.NewsListViewHolder;
+import com.thachnguyenit.R;
 
 public class NewsListAdapter extends RecyclerView.Adapter<NewsListViewHolder> {
 

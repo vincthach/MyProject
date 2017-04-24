@@ -1,4 +1,4 @@
-package example.com.myproject.viewholders;
+package com.thachnguyenit.viewholders;
 
 import android.graphics.drawable.GradientDrawable;
 import android.support.v7.widget.RecyclerView;
@@ -9,12 +9,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.thachnguyenit.models.UserModel;
+import com.thachnguyenit.utils.BackgroundUtil;
 
 import java.util.List;
 
-import example.com.myproject.R;
-import example.com.myproject.models.UserModel;
-import example.com.myproject.utils.BackgroundUtil;
+import com.thachnguyenit.R;
 
 public abstract class NewsBaseViewHolder extends RecyclerView.ViewHolder {
 

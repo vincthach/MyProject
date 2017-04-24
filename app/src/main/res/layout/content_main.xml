@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_marginLeft="@dimen/margin_news_content"
     android:layout_marginRight="@dimen/margin_news_content"
-    tools:context="example.com.myproject.MainActivity">
+   >
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_news"

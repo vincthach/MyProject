@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<example.com.myproject.components.FontAweSomeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.thachnguyenit.components.FontAweSomeTextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fab_home"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

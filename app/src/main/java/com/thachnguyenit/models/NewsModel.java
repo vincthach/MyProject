@@ -1,4 +1,4 @@
-package example.com.myproject.models;
+package com.thachnguyenit.models;
 
 import java.util.Date;
 import java.util.List;

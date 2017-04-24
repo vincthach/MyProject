@@ -1,4 +1,4 @@
-package example.com.myproject.viewholders;
+package com.thachnguyenit.viewholders;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -6,14 +6,14 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.thachnguyenit.configs.NewsConsant;
+import com.thachnguyenit.models.NewsModel;
+import com.thachnguyenit.utils.AnimationUtil;
+import com.thachnguyenit.utils.DateUtil;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import example.com.myproject.R;
-import example.com.myproject.configs.NewsConsant;
-import example.com.myproject.models.NewsModel;
-import example.com.myproject.utils.AnimationUtil;
-import example.com.myproject.utils.DateUtil;
+import com.thachnguyenit.R;
 
 public class NewsListViewHolder extends NewsBaseViewHolder {
 

@@ -1,4 +1,4 @@
-package example.com.myproject.configs;
+package com.thachnguyenit.configs;
 
 
 public class NewsConsant {

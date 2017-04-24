@@ -1,4 +1,4 @@
-package example.com.myproject.utils;
+package com.thachnguyenit.utils;
 
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;

@@ -1,4 +1,4 @@
-package example.com.myproject.components;
+package com.thachnguyenit.components;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

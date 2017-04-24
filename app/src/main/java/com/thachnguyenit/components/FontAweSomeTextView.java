@@ -1,4 +1,4 @@
-package example.com.myproject.components;
+package com.thachnguyenit.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
